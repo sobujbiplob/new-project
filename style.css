@@ -14,9 +14,10 @@ h1 {
     font-size: 50px;
 }
 
-section {
+.Flexible-content {
     display: flex;
     margin-bottom: 100px;
+
 }
 
 .half-width {
@@ -46,13 +47,14 @@ section {
 
 }
 
-.dec {
+.link {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(black, blue);
     padding: 10px 40px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
+    color: white;
 }
 
 .display-flex {
@@ -74,4 +76,49 @@ section {
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 20px grey;
+}
+
+.Flexible {
+    display: flex;
+}
+
+.text-align {
+    text-align: justify;
+}
+
+.experiene-area {
+    margin-bottom: 100px;
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.centers {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+.experience-item {
+
+    border-left: 7px solid red;
+}
+
+#blue {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
